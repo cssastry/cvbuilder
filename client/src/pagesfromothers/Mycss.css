@@ -1,0 +1,265 @@
+.body{
+    background:url('./bg-images/tm-bg-slide-1.jpg') no-repeat fixed;
+    background-size: cover;
+    text-align: center;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666666;
+    display: block;
+    width: 100%;
+    background: #fff;
+    height: 42px;
+    border-radius: 0px;
+    padding: 0 10px;
+}
+
+.form-control{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  input.form-control:focus,textarea.form-control:focus{
+    box-shadow: none!important;
+    border-bottom: 1px solid #66afe9!important;
+  }
+  .form-label{
+    position: absolute;
+    margin-top:-30px;
+    left: 10px;
+    margin-left:10px;
+    transition:font-size ease-in .4s, margin ease-in .4s
+  }
+  input.form-control:focus ~ .form-label{
+    color: #66afe9;
+    font-size: 10px;
+    margin: -45px 0 0 5px;
+  }
+  
+  
+  .form-field{
+    margin: 20px 0;
+    height: 50px;
+  }
+  
+.form-control{
+    padding: 12px;
+    height: auto;
+  }
+  input.form-control + label.form-label, textarea.form-control + label.form-label{
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 10px;
+    padding: 0 5px;
+    background: #fff;
+    transition: margin ease-in .4s,font-size ease-in .4s;
+  }
+  input.form-control:focus + label.form-label, input.form-control + label.has_content{
+    position: absolute;
+    margin-top: -53px;
+    margin-left: 10px;
+    font-size: 12px;
+    background: #fff;
+    padding: 0 5px;
+  }
+  textarea.form-control:focus + label.form-label, textarea.form-control + label.has_content2{
+    position: absolute;
+    margin-top: -73px;
+    margin-left: 10px;
+    font-size: 12px;
+    background: #fff;
+    padding: 0 5px;
+  }
+  textarea.form-control:focus ~ .form-label{
+    color: #66afe9;
+    font-size: 10px;
+    margin: -60px 0 0 5px;
+  }
+  .form-label.has_content{
+    font-size: 10px;
+    margin: -45px 0 0 5px;
+  }
+  .form-label.has_content2{
+    font-size: 10px;
+    margin: -75px 0 0 5px;
+  }
+  
+  .form-group span{
+    color: #c00;
+    font-size: 12px;
+    display: none;
+    margin-left: 10px;
+  }
+  /*
+  * -------------------------
+  * Styles from Saketh A Start
+  * -------------------------
+  */
+
+  .headingres{
+    font-size: 33px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 500;
+  }
+  
+.resumeprofile{
+  margin-top: 100px;
+  text-align: left;
+  background-color: #0f2140;
+}
+.sheet{
+  width:990px;margin: auto;background-color: #fff;
+  margin-top: -100px;
+}
+
+.line-to-right{
+  border-right: 1px solid #ccc;
+}
+
+.hrline{
+  width: 85%;
+  align-content:left;
+}
+.lefttext{
+  color: #111;
+  text-align: right;
+}
+
+.restext h2{
+  color: #888;
+}
+.detailtext{
+  color: #202020;
+}
+.sub-heading{
+  color:#999;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+.contactDetails{
+  color: #7490ab;
+}
+.contactDetails p{
+  margin-bottom: 0;
+}
+.contactDetails p i{
+margin-right: 20px;
+border-radius: 50%;
+border: 1px solid #7490ab ;
+font-size: 12px;
+margin-bottom: 5px;}
+.contactDetails p i.fa-envelope{
+  padding: 5px 6px;
+  }
+.contactDetails p i.fa-phone{
+  padding: 5px 7px;
+  }
+.contactDetails p i.fa-map-marker{
+  padding: 5px 9px;
+  height: 25px;
+  }
+  .resume_image{
+overflow: hidden;
+height: 160px;
+width: 160px;
+border-radius: 25%;
+box-shadow: 2px 2px 5px #000;
+  }
+  .resume_outer{
+    height: 160px;
+    width: 160px;
+    border: 1px solid #7490ab;
+    border-radius: 25%;
+
+  }
+  .phoim{
+    height: auto;
+    width: inherit;
+    margin-top: -15px;
+  }
+  .download_resume{
+    background-color: #ccc;
+    margin-left: 14%;
+  }
+  .total-progress{
+    display: flex;
+    height: 5px;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    margin-bottom: 10px;
+  }
+  .my-progress{
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-image: linear-gradient(45deg, #0f2140, #30b2ec);
+    transition: width .6s ease;
+  }
+  .edu_qualification h3 span{
+    font-size: 15px;
+    color: #888;
+  }
+  .edu_qualification h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+  }
+  .edu_qualification p{
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 0;
+  }
+  .italic-text{
+    font-style: italic;
+  }
+  .personal_details_list{
+    list-style: none;
+  }
+  .personal_details_list li{
+    margin-bottom: 15px;
+  }
+  .personal_details_list li b{
+    display: block;
+    color: #888;
+  }
+  .personal_details_list li b i{
+    margin-right: 5px;
+  }
+  .personal_details_list li span{
+    margin-left: 22px;
+  }
+  
+  .preview {
+    margin-top: 50;
+    display: flex;
+    flex-direction: column;
+  }
+  .image { max-width: 100%;max-height: 320 }
+  .delete {
+    cursor: pointer;
+    padding: 15;
+    background: red;
+    color: white;
+    border: none;
+  }
+
+
+
+  
+
+/*
+  * -------------------------
+  * Styles from Saketh A End
+  * -------------------------
+  */
